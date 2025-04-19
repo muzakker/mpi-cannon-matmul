@@ -1,0 +1,5 @@
+Parallel execution time: 10.7916 ms
+Performance: 23.1662 GFLOPS
+
+Parallel execution time: 1627.02 ms
+Parallel Performance: 0.15 GFLOPS

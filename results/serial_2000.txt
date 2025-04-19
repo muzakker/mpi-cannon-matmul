@@ -1,0 +1,38 @@
+
+=== Serial Matrix Multiplication ===
+Matrix dimensions: 2000 x 2000
+
+Initializing matrices with random values...
+
+Matrix A preview (top-left corner):
+0.6336 0.8333 0.9056 
+0.8231 0.6147 0.6398 
+0.6565 0.3408 0.1600 
+...
+
+Matrix B preview (top-left corner):
+0.9210 0.6871 0.6819 
+0.6722 0.4997 0.3031 
+0.1590 0.6345 0.4136 
+...
+
+Performing multiplication...
+
+Result matrix C preview (top-left corner):
+488.9808 494.6454 513.6272 
+494.7395 494.6348 506.9684 
+482.7518 489.0003 497.7141 
+...
+
+Performance Metrics:
+- Multiplication time: 14388 ms
+- Matrix size: 2000 x 2000
+- Performance: 1.11 GFLOPS
+
+Verification Metrics (Frobenius norms):
+||A|| = 1154.7942
+||B|| = 1154.2524
+||C|| = 999802.0616
+
+Serial execution time: 14498.92 ms
+Serial Performance: 1.10 GFLOPS
