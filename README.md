@@ -24,14 +24,14 @@ This implementation was tested on an HPC cluster (Pronto) with varying matrix si
 - Optimal scalability observed up to 32 processes for 2000×2000 and 4000×4000 matrices
 - Diminishing returns beyond optimal process count due to communication overhead
 
-![Execution Time vs Process Count](./figures/execution_time.png)
-![Performance vs Process Count](./figures/performance.png)
+![Execution Time vs Process Count](./visualizations/execution_vs_process_count.png)
+![Performance vs Process Count](./visualizations/performance_vs_process_count.png)
 
 ## Requirements
 
 - C++ compiler with MPI support
 - OpenMPI library
-- Linux-based operating system (tested on HPC cluster)
+- Linux-based operating system (tested on OnDemand HPC cluster)
 
 ## Usage
 
